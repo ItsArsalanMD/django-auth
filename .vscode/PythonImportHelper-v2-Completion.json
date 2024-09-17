@@ -1,0 +1,470 @@
+[
+    {
+        "label": "SocialApp",
+        "importPath": "allauth.socialaccount.models",
+        "description": "allauth.socialaccount.models",
+        "isExtraImport": true,
+        "detail": "allauth.socialaccount.models",
+        "documentation": {}
+    },
+    {
+        "label": "SocialAccount",
+        "importPath": "allauth.socialaccount.models",
+        "description": "allauth.socialaccount.models",
+        "isExtraImport": true,
+        "detail": "allauth.socialaccount.models",
+        "documentation": {}
+    },
+    {
+        "label": "SocialToken",
+        "importPath": "allauth.socialaccount.models",
+        "description": "allauth.socialaccount.models",
+        "isExtraImport": true,
+        "detail": "allauth.socialaccount.models",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "views",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "views",
+        "importPath": "accountAuth",
+        "description": "accountAuth",
+        "isExtraImport": true,
+        "detail": "accountAuth",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "AccountauthConfig",
+        "kind": 6,
+        "importPath": "accountAuth.apps",
+        "description": "accountAuth.apps",
+        "peekOfCode": "class AccountauthConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'accountAuth'",
+        "detail": "accountAuth.apps",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 2,
+        "importPath": "accountAuth.views",
+        "description": "accountAuth.views",
+        "peekOfCode": "def login(req):\n    return render(req, 'login.html')\n@login_required\ndef home(req):\n    return render(req, 'home.html')",
+        "detail": "accountAuth.views",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
+        "importPath": "accountAuth.views",
+        "description": "accountAuth.views",
+        "peekOfCode": "def home(req):\n    return render(req, 'home.html')",
+        "detail": "accountAuth.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "authenticatino_proj.asgi",
+        "description": "authenticatino_proj.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "authenticatino_proj.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "authenticatino_proj.settings",
+        "description": "authenticatino_proj.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-ps*lgy)s0%$#8!)9vz_+g4%pflsjh7#%f1%g4o+xic^eaxhdtv'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "authenticatino_proj.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "authenticatino_proj.settings",
+        "description": "authenticatino_proj.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-ps*lgy)s0%$#8!)9vz_+g4%pflsjh7#%f1%g4o+xic^eaxhdtv'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "authenticatino_proj.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "authenticatino_proj.settings",
+        "description": "authenticatino_proj.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "authenticatino_proj.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "authenticatino_proj.settings",
+        "description": "authenticatino_proj.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'rest_framework',",
+        "detail": "authenticatino_proj.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "authenticatino_proj.settings",
+        "description": "authenticatino_proj.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'rest_framework',\n    'rest_framework.authtoken',\n    'dj_rest_auth',",
+        "detail": "authenticatino_proj.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "authenticatino_proj.settings",
+        "description": "authenticatino_proj.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n    'allauth.account.middleware.AccountMiddleware',\n    'social_django.middleware.SocialAuthExceptionMiddleware',  # Add this",
+        "detail": "authenticatino_proj.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTHENTICATION_BACKENDS",
+        "kind": 5,
+        "importPath": "authenticatino_proj.settings",
+        "description": "authenticatino_proj.settings",
+        "peekOfCode": "AUTHENTICATION_BACKENDS = (\n    'django.contrib.auth.backends.ModelBackend',\n    'allauth.account.auth_backends.AuthenticationBackend',\n    'social_core.backends.google.GoogleOAuth2',\n)\nREST_FRAMEWORK = {\n    'DEFAULT_AUTHENTICATION_CLASSES': [\n        'rest_framework.authentication.TokenAuthentication',\n        # Other authentication classes...\n    ],",
+        "detail": "authenticatino_proj.settings",
+        "documentation": {}
+    },
+    {
+        "label": "REST_FRAMEWORK",
+        "kind": 5,
+        "importPath": "authenticatino_proj.settings",
+        "description": "authenticatino_proj.settings",
+        "peekOfCode": "REST_FRAMEWORK = {\n    'DEFAULT_AUTHENTICATION_CLASSES': [\n        'rest_framework.authentication.TokenAuthentication',\n        # Other authentication classes...\n    ],\n}\n# Disable token model if you don't need it\nTOKEN_MODEL = None\nROOT_URLCONF = 'authenticatino_proj.urls'\nTEMPLATES = [",
+        "detail": "authenticatino_proj.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TOKEN_MODEL",
+        "kind": 5,
+        "importPath": "authenticatino_proj.settings",
+        "description": "authenticatino_proj.settings",
+        "peekOfCode": "TOKEN_MODEL = None\nROOT_URLCONF = 'authenticatino_proj.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',",
+        "detail": "authenticatino_proj.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "authenticatino_proj.settings",
+        "description": "authenticatino_proj.settings",
+        "peekOfCode": "ROOT_URLCONF = 'authenticatino_proj.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "authenticatino_proj.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "authenticatino_proj.settings",
+        "description": "authenticatino_proj.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "authenticatino_proj.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "authenticatino_proj.settings",
+        "description": "authenticatino_proj.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'authenticatino_proj.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.1/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "detail": "authenticatino_proj.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "authenticatino_proj.settings",
+        "description": "authenticatino_proj.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "authenticatino_proj.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "authenticatino_proj.settings",
+        "description": "authenticatino_proj.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "authenticatino_proj.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "authenticatino_proj.settings",
+        "description": "authenticatino_proj.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "authenticatino_proj.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "authenticatino_proj.settings",
+        "description": "authenticatino_proj.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# social apps custom settings",
+        "detail": "authenticatino_proj.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "authenticatino_proj.settings",
+        "description": "authenticatino_proj.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# social apps custom settings\nAUTHENTICATION_BACKENDS = [",
+        "detail": "authenticatino_proj.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "authenticatino_proj.settings",
+        "description": "authenticatino_proj.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# social apps custom settings\nAUTHENTICATION_BACKENDS = [\n    'django.contrib.auth.backends.ModelBackend',",
+        "detail": "authenticatino_proj.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "authenticatino_proj.settings",
+        "description": "authenticatino_proj.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# social apps custom settings\nAUTHENTICATION_BACKENDS = [\n    'django.contrib.auth.backends.ModelBackend',\n    'social_core.backends.google.GoogleOAuth2'\n]\nLOGIN_URL = 'login'",
+        "detail": "authenticatino_proj.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "authenticatino_proj.settings",
+        "description": "authenticatino_proj.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# social apps custom settings\nAUTHENTICATION_BACKENDS = [\n    'django.contrib.auth.backends.ModelBackend',\n    'social_core.backends.google.GoogleOAuth2'\n]\nLOGIN_URL = 'login'\nLOGIN_REDIRECT_URL = 'home'\nLOGOUT_URL = 'logout'\nLOGOUT_REDIRECT_URL = 'login'",
+        "detail": "authenticatino_proj.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTHENTICATION_BACKENDS",
+        "kind": 5,
+        "importPath": "authenticatino_proj.settings",
+        "description": "authenticatino_proj.settings",
+        "peekOfCode": "AUTHENTICATION_BACKENDS = [\n    'django.contrib.auth.backends.ModelBackend',\n    'social_core.backends.google.GoogleOAuth2'\n]\nLOGIN_URL = 'login'\nLOGIN_REDIRECT_URL = 'home'\nLOGOUT_URL = 'logout'\nLOGOUT_REDIRECT_URL = 'login'\nSOCIAL_AUTH_GOOGLE_OAUTH2_KEY = \"874149636993-09q8ms1ur9hcoq7vvmh67php01papabc.apps.googleusercontent.com\"\nSOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = \"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\"",
+        "detail": "authenticatino_proj.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGIN_URL",
+        "kind": 5,
+        "importPath": "authenticatino_proj.settings",
+        "description": "authenticatino_proj.settings",
+        "peekOfCode": "LOGIN_URL = 'login'\nLOGIN_REDIRECT_URL = 'home'\nLOGOUT_URL = 'logout'\nLOGOUT_REDIRECT_URL = 'login'\nSOCIAL_AUTH_GOOGLE_OAUTH2_KEY = \"874149636993-09q8ms1ur9hcoq7vvmh67php01papabc.apps.googleusercontent.com\"\nSOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = \"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\"",
+        "detail": "authenticatino_proj.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGIN_REDIRECT_URL",
+        "kind": 5,
+        "importPath": "authenticatino_proj.settings",
+        "description": "authenticatino_proj.settings",
+        "peekOfCode": "LOGIN_REDIRECT_URL = 'home'\nLOGOUT_URL = 'logout'\nLOGOUT_REDIRECT_URL = 'login'\nSOCIAL_AUTH_GOOGLE_OAUTH2_KEY = \"874149636993-09q8ms1ur9hcoq7vvmh67php01papabc.apps.googleusercontent.com\"\nSOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = \"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\"",
+        "detail": "authenticatino_proj.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGOUT_URL",
+        "kind": 5,
+        "importPath": "authenticatino_proj.settings",
+        "description": "authenticatino_proj.settings",
+        "peekOfCode": "LOGOUT_URL = 'logout'\nLOGOUT_REDIRECT_URL = 'login'\nSOCIAL_AUTH_GOOGLE_OAUTH2_KEY = \"874149636993-09q8ms1ur9hcoq7vvmh67php01papabc.apps.googleusercontent.com\"\nSOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = \"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\"",
+        "detail": "authenticatino_proj.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGOUT_REDIRECT_URL",
+        "kind": 5,
+        "importPath": "authenticatino_proj.settings",
+        "description": "authenticatino_proj.settings",
+        "peekOfCode": "LOGOUT_REDIRECT_URL = 'login'\nSOCIAL_AUTH_GOOGLE_OAUTH2_KEY = \"874149636993-09q8ms1ur9hcoq7vvmh67php01papabc.apps.googleusercontent.com\"\nSOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = \"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\"",
+        "detail": "authenticatino_proj.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SOCIAL_AUTH_GOOGLE_OAUTH2_KEY",
+        "kind": 5,
+        "importPath": "authenticatino_proj.settings",
+        "description": "authenticatino_proj.settings",
+        "peekOfCode": "SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = \"874149636993-09q8ms1ur9hcoq7vvmh67php01papabc.apps.googleusercontent.com\"\nSOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = \"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\"",
+        "detail": "authenticatino_proj.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET",
+        "kind": 5,
+        "importPath": "authenticatino_proj.settings",
+        "description": "authenticatino_proj.settings",
+        "peekOfCode": "SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = \"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\"",
+        "detail": "authenticatino_proj.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "authenticatino_proj.urls",
+        "description": "authenticatino_proj.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('login/', views.login, name=\"login\"),\n    path('logout/', auth_views.LogoutView.as_view(), name=\"logout\"),\n    path('social-auth', include('social_django.urls', namespace=\"social\")),\n    path('', views.home, name=\"home\"),\n]",
+        "detail": "authenticatino_proj.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "authenticatino_proj.wsgi",
+        "description": "authenticatino_proj.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "authenticatino_proj.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'authenticatino_proj.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]

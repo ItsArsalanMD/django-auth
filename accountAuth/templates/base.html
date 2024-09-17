@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+    <!-- fastbootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/fastbootstrap@2.2.0/dist/css/fastbootstrap.min.css" rel="stylesheet"
+        integrity="sha256-V6lu+OdYNKTKTsVFBuQsyIlDiRWiOmtC8VQ8Lzdm2i4=" crossorigin="anonymous">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h2 class="text-center"></h2>
+        <div class="row h-100vh justify-content-center align-items-center">
+            <div class="col-5">
+                {% block content %}
+                <!-- content goes here -->
+                {% endblock %}
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- bootstrap bundle js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fast-bootstrap/5.0.0-beta2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
